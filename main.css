@@ -1,13 +1,3 @@
 h1 {
- position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-p {
- position: relative;
-  left: 0;
-  right: 0;
-  margin: auto;
+ margin-bottom: 1rem !important;
 }
