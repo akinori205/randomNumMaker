@@ -4,3 +4,10 @@ h1 {
   right: 0;
   margin: auto;
 }
+
+p {
+ position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
