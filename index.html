@@ -11,5 +11,14 @@
     <body>
         <h1>Random Number Maker</h1>
         <p>ランダムに1〜40の数字をプログラム</p>
+        <input type="button" id="myid" value="Click">
+
+        <script>
+            var mybutton = getElementById("myid");
+            var myfunc = function() {
+                mybutton.value = "Completed!";
+            }
+            mybutton.onclick = myfunc;
+        </script>
     </body>
 </html>
