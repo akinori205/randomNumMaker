@@ -22,7 +22,6 @@
             <table id="randomTable" class="table table-bordered"></table>
         </div>
         <script>
-            // 線形合同法によるPRNG
             function lcg(seed) {
                 let m = 2 ** 31 - 1;
                 let a = 48271;
@@ -65,11 +64,13 @@
                     table.appendChild(tr);
                 }
             }
+            var OnClick = document.getElementById("myid");
 
-            document.getElementById("myid").onclick = function() {
+            OnClick.onclick = function() {
                 this.value = "Generating...";
                 generateTable();
                 this.value = "Completed!";
             };
+        </script>
     </body>
 </html>
