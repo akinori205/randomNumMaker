@@ -72,8 +72,7 @@
                 this.value = "Generating...";
                 generateTable();
                 this.value = "Completed!";
-                var now = document.getElementById("now");
-                now.innerHTML(Date.now());
+                document.getElementById("now").textContent = Date.now();
             };
         </script>
     </body>
