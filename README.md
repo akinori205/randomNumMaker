@@ -9,9 +9,9 @@
 利用しているのは立派な乱数生成プログラム...などではなく疑似乱数列・線形合同法です。<br>
 数列というからにはもちろん漸化式が存在しております。
 
-### X<sub>n+1</sub> = (A * X<sub>n</sub> + C) mod M
+### X<sub>n</sub> = (A * X<sub>n-1</sub> + C) mod M
 
-ただし　**M > A, M > C, A > 0, B ≧ 0**
+ただし　**M > A, M > C, A > 0, B ≧ 0, n = 1, 2, 3, ...**
 
 ## 線形合同法の軽い紹介
 自分自身もあまり深く理解しているわけではないので、ここでは軽い説明だけさせていただきます。<br>
@@ -42,3 +42,7 @@ X<sub>1</sub>とX<sub>4</sub>が等しくなっていますね。よってX<sub>
 
 ## 引用文献
 - Algoful「<a href="https://algoful.com/Archive/Algorithm/LCG" target="_blank">線形合同法</a>」
+
+## 参考文献
+- Qiita @week「<a href="https://qiita.com/week/items/a1b2cdb1f4714a5a6143" target="_blank">疑似乱数の話(線形合同法)</a>」
+- Weblio国語辞書「<a href="https://www.weblio.jp/content/%E7%B7%9A%E5%BD%A2%E5%90%88%E5%90%8C%E6%B3%95" target="_blank">線形合同法とは？わかりやすく解説</a>」
